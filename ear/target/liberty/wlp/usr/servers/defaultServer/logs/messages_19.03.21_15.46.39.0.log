@@ -1,0 +1,42 @@
+********************************************************************************
+product = Open Liberty 19.0.0.2 (wlp-1.0.25.cl190220190222-1311)
+wlp.install.dir = C:/Projects/EARFolder/guide-maven-multimodules/start/ear/target/liberty/wlp/
+java.home = C:\Program Files\Java\jre1.8.0_191
+java.version = 1.8.0_191
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_191-b12)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 15076@DESKTOP-7E98DQB
+********************************************************************************
+[3/20/19 20:57:27:600 BOT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[3/20/19 20:57:29:115 BOT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 19.813 seconds
+[3/20/19 20:57:29:202 BOT] 0000001b com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[3/20/19 20:57:34:917 BOT] 00000013 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[3/20/19 20:57:34:934 BOT] 00000021 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 9080.
+[3/20/19 20:57:35:156 BOT] 0000001c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application io.openliberty.guides.multimodules.ear.
+[3/20/19 20:57:35:298 BOT] 0000001c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: The manifest class path jaxb-api.jar can not be found in jar file file:/C:/Users/Dell%20Inspiron%2015/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar or its parent.
+[3/20/19 20:57:35:316 BOT] 0000001c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: The manifest class path jaxb-runtime-2.3.2.jar can not be found in jar file file:/C:/Users/Dell%20Inspiron%2015/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar or its parent.
+[3/20/19 20:57:35:316 BOT] 0000001c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: The manifest class path txw2-2.3.2.jar can not be found in jar file file:/C:/Users/Dell%20Inspiron%2015/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar or its parent.
+[3/20/19 20:57:35:317 BOT] 0000001c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: The manifest class path istack-commons-runtime-3.0.8.jar can not be found in jar file file:/C:/Users/Dell%20Inspiron%2015/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar or its parent.
+[3/20/19 20:57:35:317 BOT] 0000001c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: The manifest class path stax-ex-1.8.1.jar can not be found in jar file file:/C:/Users/Dell%20Inspiron%2015/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar or its parent.
+[3/20/19 20:57:35:318 BOT] 0000001c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: The manifest class path FastInfoset-1.2.16.jar can not be found in jar file file:/C:/Users/Dell%20Inspiron%2015/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar or its parent.
+[3/20/19 20:57:35:318 BOT] 0000001c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: The manifest class path jakarta.activation-api-1.2.1.jar can not be found in jar file file:/C:/Users/Dell%20Inspiron%2015/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar or its parent.
+[3/20/19 20:57:35:529 BOT] 0000001c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: The manifest class path jaxb-api.jar can not be found in jar file file:/C:/Users/Dell%20Inspiron%2015/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar or its parent.
+[3/20/19 20:57:35:535 BOT] 0000001c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: The manifest class path jaxb-runtime-2.3.2.jar can not be found in jar file file:/C:/Users/Dell%20Inspiron%2015/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar or its parent.
+[3/20/19 20:57:35:536 BOT] 0000001c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: The manifest class path txw2-2.3.2.jar can not be found in jar file file:/C:/Users/Dell%20Inspiron%2015/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar or its parent.
+[3/20/19 20:57:35:536 BOT] 0000001c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: The manifest class path istack-commons-runtime-3.0.8.jar can not be found in jar file file:/C:/Users/Dell%20Inspiron%2015/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar or its parent.
+[3/20/19 20:57:35:536 BOT] 0000001c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: The manifest class path stax-ex-1.8.1.jar can not be found in jar file file:/C:/Users/Dell%20Inspiron%2015/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar or its parent.
+[3/20/19 20:57:35:537 BOT] 0000001c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: The manifest class path FastInfoset-1.2.16.jar can not be found in jar file file:/C:/Users/Dell%20Inspiron%2015/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar or its parent.
+[3/20/19 20:57:35:538 BOT] 0000001c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: The manifest class path jakarta.activation-api-1.2.1.jar can not be found in jar file file:/C:/Users/Dell%20Inspiron%2015/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar or its parent.
+[3/20/19 20:57:35:604 BOT] 0000001c com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[3/20/19 20:57:35:635 BOT] 0000001c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Archetype Created Web Application.
+[3/20/19 20:57:35:638 BOT] 0000001c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Archetype Created Web Application has been bound to default_host.
+[3/20/19 20:57:35:639 BOT] 0000001c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://desktop-7e98dqb:9080/converter/
+[3/20/19 20:57:35:644 BOT] 0000001c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application io.openliberty.guides.multimodules.ear started in 0.489 seconds.
+[3/20/19 20:57:35:663 BOT] 0000001b com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [jsp-2.3, servlet-3.1, el-3.0].
+[3/20/19 20:57:35:664 BOT] 0000001b com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 6.548 seconds.
+[3/20/19 20:57:35:664 BOT] 0000001b com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server defaultServer is ready to run a smarter planet.
+[3/20/19 20:57:35:699 BOT] 00000020 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/converter
+[3/20/19 20:57:35:714 BOT] 00000020 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[3/20/19 20:57:40:760 BOT] 0000001c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Projects\EARFolder\guide-maven-multimodules\start\ear\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[3/20/19 20:57:50:084 BOT] 0000001e com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.guides.multimodules.ear] [/converter] [/index.jsp]: Initialization successful.
+[3/20/19 20:57:54:995 BOT] 00000033 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.guides.multimodules.ear] [/converter] [/heights.jsp]: Initialization successful.
